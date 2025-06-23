@@ -14,13 +14,13 @@ import net.minecraft.world.level.Level;
 import com.starfish_studios.naturalist.common.entity.core.NaturalistGeoEntity;
 import org.jetbrains.annotations.NotNull;
 import software.bernie.geckolib.core.animatable.GeoAnimatable;
-import net.geckolib.animatable.AnimatableInstanceCache;
-import net.geckolib.animation.AnimatableManager;
-import net.geckolib.animation.AnimationController;
-import net.geckolib.animation.RawAnimation;
-import net.geckolib.animation.PlayState;
+import software.bernie.geckolib.core.animatable.instance.AnimatableInstanceCache;
+import software.bernie.geckolib.core.animation.AnimatableManager;
+import software.bernie.geckolib.core.animation.AnimationController;
+import software.bernie.geckolib.core.animation.RawAnimation;
+import software.bernie.geckolib.core.object.PlayState;
 import software.bernie.geckolib.util.GeckoLibUtil;
-import net.geckolib.animation.AnimationState;
+import software.bernie.geckolib.core.animation.AnimationState;
 
 public class LizardTail extends Mob implements NaturalistGeoEntity {
     private final AnimatableInstanceCache geoCache = GeckoLibUtil.createInstanceCache(this);

@@ -35,12 +35,12 @@ import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.pathfinder.BlockPathTypes;
 import com.starfish_studios.naturalist.common.entity.core.NaturalistGeoEntity;
-import net.geckolib.animatable.AnimatableInstanceCache;
-import net.geckolib.animation.AnimatableManager;
-import net.geckolib.animation.AnimationController;
-import net.geckolib.animation.AnimationState;
-import net.geckolib.animation.RawAnimation;
-import net.geckolib.animation.PlayState;
+import software.bernie.geckolib.core.animatable.instance.AnimatableInstanceCache;
+import software.bernie.geckolib.core.animation.AnimatableManager;
+import software.bernie.geckolib.core.animation.AnimationController;
+import software.bernie.geckolib.core.animation.AnimationState;
+import software.bernie.geckolib.core.animation.RawAnimation;
+import software.bernie.geckolib.core.object.PlayState;
 import software.bernie.geckolib.util.GeckoLibUtil;
 
 import org.jetbrains.annotations.NotNull;

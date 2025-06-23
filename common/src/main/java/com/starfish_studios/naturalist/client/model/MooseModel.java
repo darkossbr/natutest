@@ -9,8 +9,8 @@ import net.minecraft.util.Mth;
 import net.minecraft.world.item.Items;
 import org.jetbrains.annotations.NotNull;
 import software.bernie.geckolib.constant.DataTickets;
-import net.geckolib.model.GeoBone;
-import net.geckolib.animation.AnimationState;
+import software.bernie.geckolib.core.animatable.model.CoreGeoBone;
+import software.bernie.geckolib.core.animation.AnimationState;
 import software.bernie.geckolib.model.GeoModel;
 import software.bernie.geckolib.model.data.EntityModelData;
 

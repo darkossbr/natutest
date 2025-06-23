@@ -39,14 +39,14 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.phys.Vec3;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import net.geckolib.animatable.AnimatableInstanceCache;
-import net.geckolib.animation.AnimatableManager;
-import net.geckolib.animation.AnimationController;
-import net.geckolib.animation.RawAnimation;
+import software.bernie.geckolib.core.animatable.instance.AnimatableInstanceCache;
+import software.bernie.geckolib.core.animation.AnimatableManager;
+import software.bernie.geckolib.core.animation.AnimationController;
+import software.bernie.geckolib.core.animation.RawAnimation;
 import software.bernie.geckolib.core.keyframe.event.SoundKeyframeEvent;
-import net.geckolib.animation.PlayState;
+import software.bernie.geckolib.core.object.PlayState;
 import software.bernie.geckolib.util.GeckoLibUtil;
-import net.geckolib.animation.AnimationState;
+import software.bernie.geckolib.core.animation.AnimationState;
 
 import java.util.*;
 
